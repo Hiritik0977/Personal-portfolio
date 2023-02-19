@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body >
+<div id="header">
+    <div class="container">
+       
+        <nav>
+            <div class="icon">
+                <h1 class="logo">Hri<span>Thik</span></h1>
+            </div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+        <div class="header-text">
+            <p> Deve<span>loper</span></p>
+            <h1>Hi, I'm <span>Hri<span>thik</span></span><br> from Kathmandu</h1>
+        </div>
+    </div>
+</div> 
+<!-------------------about-------------------> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-column-1">
+                <img src="image/parash.jpg">
+                
+            </div>
+            <div class="about-column-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Plants are multicellular organisms in the kingdom Plantae that use photosynthesis to make their own food. There are over 300,000 species of plants; common examples of plants include grasses, trees, and shrubs. Plants have an important role in the world’s ecosystems. They produce most of the world’s oxygen, and are important in the food chain, as many organisms eat plants or eat organisms which eat plants. The study of plants is called botany.</p>
+                <div class="tab-titles">
+                    <p class= "tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class= "tab-links" onclick="opentab('education')">Education</p>
+                    <p class= "tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br> web/app</li>
+                        <li><span>Web developing</span><br>Web development</li>
+                        <li><span>Python</span><br>project management</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"  id="education">
+                    <ul>
+                        <li><span>2017</span><br> Schooling</li>
+                        <li><span>2017-2020</span><br>+2 science</li>
+                        <li><span>2021-Present</span><br>Undergraducate</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"  id="experience">
+                    <ul>
+                        <li><span>IOS</span><br> Database</li>
+                        <li><span>I0T</span><br>Arduino</li>
+                        <li><span>Programming</span><br>Java and java script</script></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>  
+<!--------------------Services------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web desiging</h2>
+                <p>Plants are multicellular organisms in the kingdom Plantae that use photosynthesis to make their own food. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Programming</h2>
+                <p>Plants are multicellular organisms in the kingdom Plantae that use photosynthesis to make their own food. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Gaming</h2>
+                <p>Plants are multicellular organisms in the kingdom Plantae that use photosynthesis to make their own food. </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------portfolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/cw.jpg">
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>Plants are multicellular organisms in the kingdom Plantae that use photosynthesis to make their own food.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/b5.jpg">
+                <div class="layer">
+                    <h3>Music app</h3>
+                    <p>Plants are multicellular organisms in the kingdom Plantae that use photosynthesis to make their own food.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/dog.jpg">
+                <div class="layer">
+                    <h3>Online shopping app</h3>
+                    <p>Plants are multicellular organisms in the kingdom Plantae that use photosynthesis to make their own food.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----------------contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>9824373351</p>
+                <div class="social-icons">
+                    <a href=""><i href="#"><ion-icon name="logo-facebook"></ion-icon></i></a>
+                    <a href=""><i href="#"><ion-icon name="logo-linkedin"></ion-icon> </i></a>
+                    <a href=""><i href="#"><ion-icon name="logo-instagram"></ion-icon> </i></a>
+                    
+                </div>
+                <a href="image/Document-Recovered.pdf" Download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Hiritik.</p>
+    </div>
+</div>
+<!---<script>
+    var slideimg = document.getElementById("slideimg");
+    var image = new Array(
+        "image/b3.jpg",
+        "image/cat.jpg",
+        "image/b5.jpg"
+       );
+    var len = image.length;
+    var i = 0;
+    function slider(){
+        if(i > len-1){
+            i = 0;
+        }
+        slideimg.src = images[i];
+        i++;
+        setTimeout('slider()',3000)
+    }
+
+</script>--->
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz-rHZ9rhMHAc1AckUeJQqj5S1XHle1LxHEKmCIHmBnmz5uLFFzOumPPsK5pI2vuZoF/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },1000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
